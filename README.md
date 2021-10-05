@@ -8,13 +8,13 @@ Contains:
 ## Use sample project
 - Verify that you have `Git` installed
 - Verify that you have `Java` installed, also that you already setup the following environment variables: `$PATH` and `$JAVA_HOME`
-- Clone the repository:
+- Clone the repository and move inside that path:
 ```shellscript
 $ git clone https://github.com/eataborda/basic-gatling.git
+$ cd ./basic-gatling
 ```
-- Move to the cloned repository
 
-## Run simulation
+## Run simulations
 There are two ways to run the simulations depending on the number you want to run, please go to the root of the repository and execute the following command:
 - Run all simulations:
 ```
