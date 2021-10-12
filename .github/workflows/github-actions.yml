@@ -1,7 +1,7 @@
 name: Gatling test run
 on: [push]
 jobs:
-  github-actions:
+  gatling-test-run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -10,7 +10,6 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
           cache: 'gradle'
-      - run: ./gradlew build
       - run: ./gradlew gatlingRun
       - name: 'Gatling test result'
         uses: actions/upload-artifact@v2
