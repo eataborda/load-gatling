@@ -1,0 +1,12 @@
+name: Gatling test run
+on: [push]
+jobs:
+  github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ./gradlew gatlingRun
+      - name: 'Gatling test result'
+        uses: actions/upload-artifact@v2
+        with:
+          name: gatling-test-result
+          path: build/reports/gatling
