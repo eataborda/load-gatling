@@ -31,6 +31,6 @@ $ ./gradlew gatlingRun-com.github.eataborda.gatling.BasicSimulation
 ```
 To run a simulation class it is necessary go to the path `src/gatling/scala` and identify:
 
-The package that contains the simulation class: `com.github.eataborda.gatling`
+- The package that contains the simulation class: `com.github.eataborda.gatling`
 
-The name of the simulation class: `BasicSimulation`
+- The name of the simulation class: `BasicSimulation`
