@@ -31,5 +31,4 @@ class BasicSimulation extends Simulation {
       atOnceUsers(4),
       rampUsers(30).during(10.seconds)
     ).protocols(httpProtocol))
-
 }
