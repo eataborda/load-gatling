@@ -3,7 +3,6 @@ on:
   push:
     paths:
       - 'src/gatling/**'
-      - '!gradle/wrapper/**'
 jobs:
   gatling-test-run:
     runs-on: ubuntu-latest
