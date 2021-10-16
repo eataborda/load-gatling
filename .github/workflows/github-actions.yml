@@ -1,5 +1,9 @@
-name: Gatling test run
-on: [push]
+name: gatling-test-run
+on:
+  push:
+    paths:
+      - 'src/gatling/**'
+      - '!gradle/wrapper/**'
 jobs:
   gatling-test-run:
     runs-on: ubuntu-latest
@@ -16,3 +20,4 @@ jobs:
         with:
           name: gatling-test-result
           path: build/reports/gatling
+          retention-days: 30

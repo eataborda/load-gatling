@@ -1,5 +1,8 @@
-[![Gatling test run](https://github.com/eataborda/basic-gatling/actions/workflows/github-actions.yml/badge.svg)](https://github.com/eataborda/basic-gatling/actions/workflows/github-actions.yml)
-[![Gradle Plugin Portal](https://img.shields.io/badge/io.gatling.gradle-3.6.1-success)](https://plugins.gradle.org/plugin/io.gatling.gradle)
+[![gatling-test-run](https://github.com/eataborda/basic-gatling/actions/workflows/github-actions.yml/badge.svg)](https://github.com/eataborda/basic-gatling/actions/workflows/github-actions.yml)
+![Gradle](https://img.shields.io/badge/Gradle-6.1.1-blue)
+![Gradle](https://img.shields.io/badge/Java-11-blue)
+[![Gradle Plugin Portal](https://img.shields.io/badge/io.gatling.gradle-3.6.1-yellowgreen)](https://plugins.gradle.org/plugin/io.gatling.gradle)
+
 # Basic Gatling simulation
 A basic gatling test using gradle and scala, based on the [gatling-gradle-plugin-demo](https://github.com/gatling/gatling-gradle-plugin-demo) repository.
 
