@@ -1,5 +1,5 @@
 [![gatling-test-run](https://github.com/eataborda/basic-gatling/actions/workflows/github-actions.yml/badge.svg)](https://github.com/eataborda/basic-gatling/actions/workflows/github-actions.yml)
-![Gradle](https://img.shields.io/badge/Gradle-6.1.1-blue)
+![Gradle](https://img.shields.io/badge/Gradle-7.2-blue)
 ![Gradle](https://img.shields.io/badge/Java-11-blue)
 [![Gradle Plugin Portal](https://img.shields.io/badge/io.gatling.gradle-3.6.1-blue)](https://plugins.gradle.org/plugin/io.gatling.gradle)
 
