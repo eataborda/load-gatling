@@ -4,7 +4,7 @@
 [![Gradle Plugin Portal](https://img.shields.io/badge/io.gatling.gradle-3.6.1-blue)](https://plugins.gradle.org/plugin/io.gatling.gradle)
 
 # Basic Gatling simulation
-A basic gatling test with gradle and scala, using the Gatling Gradle Plugin, based on the [gatling-gradle-plugin-demo](https://github.com/gatling/gatling-gradle-plugin-demo) repository
+A basic gatling test with gradle and scala, based on the [gatling-gradle-plugin-demo](https://github.com/gatling/gatling-gradle-plugin-demo) repository
 
 Contains:
 - Basic build.gradle config
