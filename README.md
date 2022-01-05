@@ -1,7 +1,6 @@
-[![gatling-test-run](https://github.com/eataborda/basic-gatling/actions/workflows/github-actions.yml/badge.svg)](https://github.com/eataborda/basic-gatling/actions/workflows/github-actions.yml)
-![Gradle](https://img.shields.io/badge/Gradle-7.2-blue)
-![Gradle](https://img.shields.io/badge/Java-17-blue)
-[![Gradle Plugin Portal](https://img.shields.io/badge/io.gatling.gradle-3.6.1-blue)](https://plugins.gradle.org/plugin/io.gatling.gradle)
+[![gatling-test-run](https://github.com/eataborda/basic-gatling/actions/workflows/github-actions.yml/badge.svg)](https://github.com/eataborda/basic-gatling-gradle-scala/actions/workflows/github-actions.yml)
+![Gradle](https://img.shields.io/badge/Gradle-7.3.3-blue)
+[![Gradle Plugin Portal](https://img.shields.io/badge/io.gatling.gradle-3.7.3-blue)](https://plugins.gradle.org/plugin/io.gatling.gradle)
 
 # Basic Gatling simulation
 A basic gatling test with gradle and scala, based on the [gatling-gradle-plugin-demo-scala](https://github.com/gatling/gatling-gradle-plugin-demo-scala) repository
@@ -12,7 +11,6 @@ Contains:
 
 ## Use sample project
 - Verify that you have `Git` installed
-- Verify that you have `Java` installed, also that you already setup the following environment variables: `$PATH` and `$JAVA_HOME`
 - Clone the repository and move inside that path:
 ```shellscript
 $ git clone https://github.com/eataborda/basic-gatling.git
