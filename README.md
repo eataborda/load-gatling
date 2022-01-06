@@ -9,11 +9,12 @@ Contains:
 - Basic build.gradle config
 - Basic sample of a simulation with a friendly structure
 
-## Use sample project
-- Verify that you have `Git` installed
+## Use sample project locally
+- Verify that you have `Git`
+- Verify that you have `Java` installed, also that you already setup the following environment variables: `$PATH` and `$JAVA_HOME`
 - Clone the repository and move inside that path:
 ```shellscript
-$ git clone https://github.com/eataborda/basic-gatling.git
+$ git clone https://github.com/eataborda/basic-gatling-gradle-scala.git
 $ cd ./basic-gatling-gradle-scala
 ```
 
