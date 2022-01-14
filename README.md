@@ -26,10 +26,10 @@ $ ./gradlew gatlingRun
 ```
 - Run a specific simulation:
 ```
-$ ./gradlew gatlingRun-com.github.eataborda.gatling.BasicSimulation
+$ ./gradlew gatlingRun-com.github.eataborda.gatling.basic.BasicSimulation
 ```
 To run a simulation class it is necessary go to the path `src/gatling/scala` and identify:
 
-- The package that contains the simulation class: `com.github.eataborda.gatling`
+- The package that contains the simulation class: `com.github.eataborda.gatling.basic`
 
 - The name of the simulation class: `BasicSimulation`
