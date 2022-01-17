@@ -32,7 +32,7 @@ class StressSimulation extends Simulation {
         .times(5)
         .eachLevelLasting(10.seconds)
         .separatedByRampsLasting(5.seconds)
-        .startingFrom(1)
+        .startingFrom(2)
     ).protocols(httpProtocol)
   )
 }

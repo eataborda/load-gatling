@@ -29,7 +29,7 @@ class SpikeSimulation extends Simulation {
     getIBMComputersScenario.inject(
       (1 to 6).flatMap(i=>Seq(
         rampUsers(30).during(10.seconds),
-        atOnceUsers(7),
+        atOnceUsers(6),
         rampUsers(30).during(10.seconds)
       ))).protocols(httpProtocol)
   )
