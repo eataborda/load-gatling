@@ -1,6 +1,6 @@
 plugins {
     id 'scala'
-    id 'io.gatling.gradle' version '3.7.3'
+    id 'io.gatling.gradle' version '3.7.6.2'
 }
 
 group 'com.github.eataborda.gatling'

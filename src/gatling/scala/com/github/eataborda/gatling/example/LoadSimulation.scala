@@ -27,8 +27,8 @@ class LoadSimulation extends Simulation {
 
   setUp(
     getAsusComputersScenario.inject(
-      nothingFor(11.seconds),
+      nothingFor(10.seconds),
       rampUsers(120).during(40.seconds),
-      nothingFor(11.seconds)
+      nothingFor(10.seconds)
     ).protocols(httpProtocol))
 }
