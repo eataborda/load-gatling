@@ -14,8 +14,8 @@ Contains:
 - Verify that you have `Java` installed, also that you already setup the following environment variables: `$PATH` and `$JAVA_HOME`
 - Clone the repository and move inside that path:
 ```shellscript
-$ git clone https://github.com/eataborda/basic-gatling-gradle-scala.git
-$ cd ./basic-gatling-gradle-scala
+$ git clone https://github.com/eataborda/gatling-gradle-scala.git
+$ cd ./gatling-gradle-scala
 ```
 
 ## Run simulations
