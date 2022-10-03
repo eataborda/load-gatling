@@ -28,7 +28,7 @@ class BasicSimulation extends Simulation {
 
   setUp(
     getDellComputersScenario.inject(
-      nothingFor(4.seconds),
+      nothingFor(5.seconds),
       atOnceUsers(4),
       rampUsers(20).during(10.seconds)
     ).protocols(httpProtocol))
