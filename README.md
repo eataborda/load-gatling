@@ -14,8 +14,8 @@ Contains:
 - Verify that you have `Java` installed, also that you already setup the following environment variables: `$PATH` and `$JAVA_HOME`
 - Clone the repository and move inside that path:
 ```shellscript
-$ git clone git@github.com:eataborda/load-gradle.git
-$ cd ./load-gradle
+$ git clone git@github.com:eataborda/load-gatling.git
+$ cd ./load-gatling
 ```
 
 ## Run simulations
