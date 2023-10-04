@@ -1,4 +1,4 @@
-[![gatling-test-run](https://github.com/eataborda/basic-gatling-gradle-scala/actions/workflows/performance-test-run.yml/badge.svg)](https://github.com/eataborda/basic-gatling-gradle-scala/actions/workflows/performance-test-run.yml)
+[![gatling-test-run](https://github.com/eataborda/load-gatling/actions/workflows/performance-test-run.yml/badge.svg)](https://github.com/eataborda/load-gatling/actions/workflows/performance-test-run.yml)
 [![Gradle](https://img.shields.io/badge/Gradle-7.4.2-blue)](https://gradle.org/releases/)
 [![Gradle Plugin Portal](https://img.shields.io/badge/io.gatling.gradle-3.9.0-blue)](https://plugins.gradle.org/plugin/io.gatling.gradle/3.9.0)
 
