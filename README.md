@@ -1,6 +1,6 @@
 [![gatling-test-run](https://github.com/eataborda/load-gatling/actions/workflows/performance-test-run.yml/badge.svg)](https://github.com/eataborda/load-gatling/actions/workflows/performance-test-run.yml)
-[![Gradle](https://img.shields.io/badge/Gradle-7.4.2-blue)](https://gradle.org/releases/)
-[![Gradle Plugin Portal](https://img.shields.io/badge/io.gatling.gradle-3.9.0-blue)](https://plugins.gradle.org/plugin/io.gatling.gradle/3.9.0)
+[![Gradle](https://img.shields.io/badge/Gradle-8.9-blue)](https://gradle.org/releases/)
+[![Gradle Plugin Portal](https://img.shields.io/badge/io.gatling.gradle-3.11.5.2-blue)](https://plugins.gradle.org/plugin/io.gatling.gradle/3.9.0)
 
 # Basic Gatling simulation
 A basic gatling test with gradle and scala, based on the [gatling-gradle-plugin-demo-scala](https://github.com/gatling/gatling-gradle-plugin-demo-scala) repository
@@ -22,11 +22,11 @@ $ cd ./load-gatling
 There are two ways to run the simulations depending on the number you want to run, please go to the root of the repository and execute the following command:
 - Run all simulations:
 ```
-$ ./gradlew gatlingRun
+$ ./gradlew gatlingRun --all
 ```
 - Run a specific simulation:
 ```
-$ ./gradlew gatlingRun-com.github.eataborda.gatling.basic.BasicSimulation
+$ ./gradlew gatlingRun --simulation=com.github.eataborda.gatling.basic.BasicSimulation
 ```
 To run a simulation class it is necessary go to the path `src/gatling/scala` and identify:
 
