@@ -9,7 +9,7 @@ jobs:
   test-run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: ./gradlew gatlingRun --all
       - name: 'Gatling test result'
         uses: actions/upload-artifact@v4

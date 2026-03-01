@@ -27,7 +27,7 @@ class StressSimulation extends Simulation {
 
   setUp(
     getThinkpadComputersScenario.inject(
-      nothingFor(5.seconds),
+      nothingFor(6.seconds),
       incrementUsersPerSec(2)
         .times(5)
         .eachLevelLasting(10.seconds)
